@@ -1,6 +1,24 @@
+import { NavLink } from 'react-router-dom'
+import logo from '../assets/logoZalando.png'
+import style from './Navbar.module.css'
+
 function Navbar() {
     return (
         <>
+            <nav className="navbar bg-body-tertiary">
+                <div className="container">
+                    <div>
+                        <a className="navbar-brand" href="#">
+                            <img src={logo} alt="logo zalando" style={{ width: 150, height: 30 }} />
+                        </a>
+                    </div>
+                    <div className="d-flex gap-3">
+                        <NavLink className="btn btn-primary" to="/">Home</NavLink>
+                        <NavLink className="btn btn-primary" to="/aboutus">Chi siamo</NavLink>
+                        <NavLink className="btn btn-primary" to="/products">Prodotti</NavLink>
+                    </div>
+                </div>
+            </nav>
         </>
     )
 };
