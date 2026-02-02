@@ -1,16 +1,16 @@
 import axios from "axios";
 import { useState, useEffect } from 'react'
 import { Link } from "react-router-dom";
-
+import detailPage from "./detailPage";
 
 function Products() {
 
-    const [products, setProdutc] = useState([])
+    const [products, setProduct] = useState([])
 
     useEffect(() => {
         axios.get("https://fakestoreapi.com/products").then(res => {
             console.log(res.data);
-            setProdutc(res.data)
+            setProduct(res.data)
         }
         )
     }, []);
@@ -31,7 +31,7 @@ function Products() {
                             <div className="card-body">
                                 <h5 className="card-title">{product.title}</h5>
                                 <p className="card-text">{product.description}</p>
-                                <Link className="btn btn-info" to="/products/1">Visualizza scheda prodotto</Link>
+                                <Link className="btn btn-info" to={`/products/${product.id}`}>Visualizza scheda prodotto</Link>
                             </div>
 
                         </div>
