@@ -11,7 +11,8 @@ function HomePage() {
                     <div className="d-flex justify-content-center">
 
                         <div className={`${style.orange}`}>
-                            <p>Fino al 20 Febbraio, più di 1000 capi scontati del 20%</p>
+                            <p>Fino al 20 Febbraio, sconto del 20% su una vasta selezione di prodotti</p>
+
                             <Link to="/products" className="btn btn-dark">Scopri i nostri prodotti</Link>
                         </div>
 

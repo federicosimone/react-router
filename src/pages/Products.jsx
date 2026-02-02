@@ -23,31 +23,33 @@ function Products() {
 
     return (
         <>
-            <div className="container mt-5">
-                <div className="d-flex flex-wrap gap-4">
+            <div className={`${style.bgProducts}`}>
+                <div className="container pt-5">
+                    <div className="d-flex flex-wrap gap-4">
 
-                    {products.map((product) => (
+                        {products.map((product) => (
 
-                        <div id={product.id} className="card d-flex flex-column" style={{ width: "12rem" }} >
-                            <img src={product.image} className={`${style.cardImage} card-img-top`} alt="thumb" />
-                            <div className="card-body d-flex flex-column">
-                                <h5 className="card-title">{product.title}</h5>
-                                <div className=" mt-auto">
-                                    <p className="fw-bold">€ {product.price.toFixed(2)}</p>
-                                    <Link className="btn btn-dark" to={`/products/${product.id}`}>Visualizza scheda prodotto</Link>
+                            <div id={product.id} className="card p-2 d-flex flex-column" style={{ width: "12rem" }} >
+                                <img src={product.image} className={`${style.cardImage} card-img-top`} alt="thumb" />
+                                <div className="card-body d-flex flex-column">
+                                    <h5 className="card-title">{product.title}</h5>
+                                    <div className=" mt-auto">
+                                        <p className="fw-bold">€ {product.price.toFixed(2)}</p>
+                                        <Link className="btn btn-dark" to={`/products/${product.id}`}>Dettagli</Link>
+                                    </div>
+
                                 </div>
 
                             </div>
 
-                        </div>
 
-
-                    )
+                        )
 
 
 
 
-                    )}
+                        )}
+                    </div>
                 </div>
             </div>
         </>

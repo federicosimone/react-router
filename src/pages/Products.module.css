@@ -1,3 +1,7 @@
 .cardImage {
     max-height: 250px;
 }
+
+.bgProducts {
+    background-color: rgba(255, 166, 0, 0.671);
+}
