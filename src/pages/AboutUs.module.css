@@ -1,0 +1,33 @@
+.jumboAbout {
+    background-color: rgb(255, 106, 0);
+    min-height: 40rem;
+    padding: 5em;
+}
+
+.bgClothes {
+    background-image: url(../assets/people.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    border-radius: 20px;
+
+}
+
+.paragraph {
+    width: 30%;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.jumboAbout h1 {
+    text-align: center;
+}
+
+.bgCouple {
+    background-image: url(../assets/couple.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    border-radius: 20px;
+}
