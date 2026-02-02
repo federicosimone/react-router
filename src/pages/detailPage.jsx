@@ -26,6 +26,7 @@ function detailPage() {
 
 
 
+
     return (
         <>
             <div className="container mt-5">
@@ -34,8 +35,10 @@ function detailPage() {
                         <img src={details.image} alt="" />
                     </div>
                     <div className="col col-6">
+                        <p>{details.category}</p>
                         <h1>{details.title}{id} </h1>
-                        <p>€ </p>
+                        <p>{details.description}</p>
+                        <p className="fw-bold fs-2">€ {details.price}</p>
                         <button className="btn btn-success">Aggiungi al carrello</button>
                     </div>
                 </div>

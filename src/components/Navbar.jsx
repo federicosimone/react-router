@@ -13,9 +13,9 @@ function Navbar() {
                         </a>
                     </div>
                     <div className="d-flex gap-3">
-                        <NavLink className="btn btn-primary" to="/">Home</NavLink>
-                        <NavLink className="btn btn-primary" to="/aboutus">Chi siamo</NavLink>
-                        <NavLink className="btn btn-primary" to="/products">Prodotti</NavLink>
+                        <NavLink className="btn btn-dark" to="/">Home</NavLink>
+                        <NavLink className="btn btn-dark" to="/aboutus">Chi siamo</NavLink>
+                        <NavLink className="btn btn-dark" to="/products">Prodotti</NavLink>
                     </div>
                 </div>
             </nav>

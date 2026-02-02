@@ -1,0 +1,15 @@
+.jumbo {
+    background-image: url(../assets/jumboClothes.jpg);
+    background-size: cover;
+    min-height: 40rem;
+}
+
+.orange {
+    background-color: rgb(255, 106, 0);
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
