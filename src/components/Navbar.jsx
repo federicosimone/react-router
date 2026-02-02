@@ -9,7 +9,7 @@ function Navbar() {
                 <div className="container">
                     <div>
                         <a className="navbar-brand" href="#">
-                            <img src={logo} alt="logo zalando" style={{ width: 180, height: 40 }} />
+                            <img src={logo} alt="logo zalando" style={{ width: 180, height: 37 }} />
                         </a>
                     </div>
                     <div className="d-flex gap-3">
