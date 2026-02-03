@@ -1,7 +1,7 @@
 .jumbo {
     background-image: url(../assets/jumboClothes.jpg);
     background-size: cover;
-    min-height: 40rem;
+    min-height: 50rem;
 }
 
 .orange {

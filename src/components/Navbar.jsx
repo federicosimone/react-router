@@ -8,7 +8,7 @@ function Navbar() {
             <nav className="navbar bg-body-tertiary">
                 <div className="container">
                     <div>
-                        <a className="navbar-brand" href="#">
+                        <a className="navbar-brand" href={"/"}>
                             <img src={logo} alt="logo zalando" style={{ width: 150, height: 60 }} />
                         </a>
                     </div>
