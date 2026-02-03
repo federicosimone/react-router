@@ -30,7 +30,7 @@ function Products() {
                         {products.map((product) => (
 
                             <div id={product.id} className="card p-2 d-flex flex-column" style={{ width: "12rem" }} >
-                                <img src={product.image} className={`${style.cardImage} card-img-top`} alt="thumb" />
+                                <div className={style.cardImage} style={{ backgroundImage: `url(${product.image})` }}></div>
                                 <div className="card-body d-flex flex-column">
                                     <h5 className="card-title">{product.title}</h5>
                                     <div className=" mt-auto">
