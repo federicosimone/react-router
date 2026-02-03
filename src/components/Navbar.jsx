@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
-import logo from '../assets/logoZalando.png'
+import logo from '../assets/ZalviLogo.png'
 import style from './Navbar.module.css'
 
 function Navbar() {
@@ -9,7 +9,7 @@ function Navbar() {
                 <div className="container">
                     <div>
                         <a className="navbar-brand" href="#">
-                            <img src={logo} alt="logo zalando" style={{ width: 180, height: 37 }} />
+                            <img src={logo} alt="logo zalando" style={{ width: 150, height: 60 }} />
                         </a>
                     </div>
                     <div className="d-flex gap-3">
